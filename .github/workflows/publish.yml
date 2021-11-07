@@ -33,10 +33,10 @@ jobs:
       - name: Build Project
         run: npm build
       - name: Prepare Project
-        run: touch build/.nojekyll
+        run: touch public/.nojekyll
       - name: Deploy
         uses: JamesIves/github-pages-deploy-action@4.1.5
         with:
             branch: gh-pages
-            folder: build
+            folder: public
             clean: true
