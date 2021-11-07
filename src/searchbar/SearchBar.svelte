@@ -11,7 +11,6 @@
 		display: flex;
 	}
 	input {
-		text-align: center;
 		width: 90%;
 	}
 
