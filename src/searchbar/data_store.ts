@@ -8,7 +8,12 @@ const fuse = new Fuse(allergins, {
 	keys: ['name', 'types'],
 });
 
-export const searchQuery = writable('');
+export const searchQuery = writable(decodeURI(window.location.hash).substr(1));
+
+searchQuery.subscribe(value => {
+	window.location.hash = value;
+})
+
 export const data: Readable<Allergin[]> = derived(searchQuery, $query => {
 	if ($query.length === 0) return allergins;
 	return fuse.search($query).map(item => item.item);

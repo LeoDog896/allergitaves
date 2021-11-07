@@ -1,3 +1,6 @@
+/**
+ * The types of allergins as an enum. Set to a string for display reasons.
+ */
 enum AllerginType {
 	PALM_OIL = "Palm Oil",
 	SOY = "Soy",
