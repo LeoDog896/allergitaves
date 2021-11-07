@@ -3,10 +3,19 @@
 </script>
 <div id="searchbar">
 	<input bind:value={$searchQuery} placeholder="Search for an ingredient..."/>
+	<button>+</button>
 </div>
 <style lang="scss">
+
+	#searchbar {
+		display: flex;
+	}
 	input {
 		text-align: center;
-		width: 100%;
+		width: 90%;
+	}
+
+	button {
+		width: 10%;
 	}
 </style>
