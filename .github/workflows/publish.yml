@@ -31,7 +31,7 @@ jobs:
       - name: Install Dependencies
         run: npm i
       - name: Build Project
-        run: npm build
+        run: npm run build
       - name: Prepare Project
         run: touch public/.nojekyll
       - name: Deploy
