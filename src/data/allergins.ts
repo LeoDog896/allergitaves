@@ -1,7 +1,7 @@
 /**
  * The types of allergins as an enum. Set to a string for display reasons.
  */
-enum AllerginType {
+export enum AllerginType {
 	PALM_OIL = "Palm Oil",
 	SOY = "Soy",
 	GLUTEN = "Gluten",
@@ -16,7 +16,8 @@ export interface Allergin {
 	name: string,
 	types: AllerginType[],
 	information?: string,
-	more_information?: string
+	more_information?: string,
+	user_created?: boolean
 }
 
 export const allergins: Allergin[] = [
