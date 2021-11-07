@@ -9,6 +9,7 @@ enum AllerginType {
 	EGGS = "Eggs",
 	SHELLFISH = "Shellfish",
 	NUTS = "Nuts",
+	COCONUT = "Coconut",
 }
 
 export interface Allergin {
@@ -21,6 +22,6 @@ export interface Allergin {
 export const allergins: Allergin[] = [
 	{
 		name: "Glycerin",
-		types: [AllerginType.PALM_OIL],
+		types: [AllerginType.PALM_OIL, AllerginType.COCONUT, AllerginType.SOY],
 	}
 ]
