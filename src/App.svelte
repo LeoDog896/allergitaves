@@ -24,4 +24,14 @@
 		flex-wrap: wrap;
 		justify-content: space-around;
 	}
+
+	.allergin {
+		padding: 10px 20px;
+		border-radius: 5px;
+		transition: 200ms background-color;
+	}
+
+	.allergin:hover {
+		background-color: #f5f5f5;
+	}
 </style>

@@ -50,6 +50,10 @@ button {
 	outline: none;
 }
 
+button:hover {
+	background-color: #e6e6e6;
+}
+
 button:disabled {
 	color: #999;
 }
