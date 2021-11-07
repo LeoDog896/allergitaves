@@ -1,11 +1,11 @@
 <script lang="ts">
-	import { allergins } from './data/allergins'
-	import SearchBar from './SearchBar.svelte'
+	import { data } from './searchbar/data_store'
+	import SearchBar from './searchbar/SearchBar.svelte'
 </script>
 
 <SearchBar />
 <main>
-	{#each allergins as allergin}
+	{#each $data as allergin}
 		<div class="allergin">
 			<h2>{allergin.name}</h2>
 			<p>Contains: {allergin.types.join(", ")}</p>

@@ -1,10 +1,8 @@
 <script>
-
-import App from "./App.svelte";
-
+	import { searchQuery } from './data_store'
 </script>
 <div id="searchbar">
-	<input placeholder="Search for an ingredient..."/>
+	<input bind:value={$searchQuery} placeholder="Search for an ingredient..."/>
 </div>
 <style lang="scss">
 	input {

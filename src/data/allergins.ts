@@ -8,7 +8,7 @@ enum AllerginType {
 	NUTS = "Nuts",
 }
 
-interface Allergin {
+export interface Allergin {
 	name: string,
 	types: AllerginType[],
 	information?: string,
