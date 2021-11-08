@@ -9,8 +9,14 @@
 	<main>
 		{#each $data as allergin}
 			<div class="allergin">
-				<h2>{allergin.name}</h2>
-				<p>May be derived from: {allergin.types.join(", ")}</p>
+				<h2>
+					{#if allergin.more_information}
+						<a href={allergin.more_information}>{allergin.name}</a>
+					{:else}
+						{allergin.name}
+					{/if}
+				</h2>
+				<p>{allergin.types.join(", ")}</p>
 				{#if allergin.information}
 					<p>{allergin.information}</p>
 				{/if}
