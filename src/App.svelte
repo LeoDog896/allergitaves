@@ -29,6 +29,16 @@
 		padding: 10px 20px;
 		border-radius: 5px;
 		transition: 200ms background-color;
+
+		h2 {
+			color: #666;
+			font-weight: 300;
+		}
+
+		p {
+			color: #888;
+			font-weight: 200;
+		}
 	}
 
 	.allergin:hover {

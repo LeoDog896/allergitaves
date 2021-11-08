@@ -1,7 +1,9 @@
 import { AllerginType, Allergin } from "./allergin_type"
 
-export const palm_oil_data: Allergin[] = `1,2-OCLanediol
-1,2-Octyleneglycol
+export const palm_oil_data: Allergin[] = `1-OCLanediol
+2-OCLanediol
+1-Octyleneglycol
+2-Octyleneglycol
 2-Ethyl Hexyl Stearate
 100 Cetyl/stearyl ether
 304
@@ -258,7 +260,7 @@ Lauramide DEA
 Lauramide MEA
 Lauramine oxide
 Laureth
-Laureth-1, 
+Laureth-1
 Laureth-2
 Laureth-3
 Laureth-5
@@ -283,7 +285,10 @@ Laureth-50
 Lauric acid
 Lauric Acid (C12)
 Lauroyl sarcosine
-Lauryl Alcohol Ethoxylates (2, 3 & 4 Mole)
+Lauryl Alcohol Ethoxylates 2
+Lauryl Alcohol Ethoxylates 3
+Lauryl Alcohol Ethoxylates 4
+Lauryl Alcohol Ethoxylates Mole
 Lauryl betaine
 Lauryl dimonium hydrolysed collagen​
 Lauryl glucoside
@@ -321,11 +326,13 @@ Myristoyl Sarcosinate
 Myristyl alcohol
 Myristyl myristate
 n- Butyl esters
-n-Octane-1,2-diol
+n-Octane-1-diol
+n-Octane-2-diol
 N-stearoyl phytosphingosine
 N-stearoyl sphinganine
 Octandiol
-Octan-1,2-diol
+Octan-1-diol
+Octan-2-diol
 Octyl palmitate
 Octyl stearate
 Octyldodecyl myristate
@@ -522,7 +529,10 @@ Steareth - 100
 Stearic Acid (C18)& (570)
 Stearic acid (vegetable oil)
 Stearic Acid 50 NF Powder
-Stearic Acid 55% 65%, 70%, 90%
+Stearic Acid 55%
+Stearic Acid 65%
+Stearic Acid 70%
+Stearic Acid 90%
 Stearic acid or fatty acid (570)
 Stearic hydrazide
 Stearone
@@ -531,7 +541,7 @@ Stearoyl sarcosine
 Stearyl acetate
 Stearyl alcohol
 Stearyl alcohol NF
-Stearyl caprylate,
+Stearyl caprylate
 Stearyl citrate
 Stearyl dimethicone
 Stearyl glycyrrhetinate
