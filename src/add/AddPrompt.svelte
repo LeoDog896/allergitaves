@@ -1,5 +1,5 @@
 <script lang="ts">
-	import { AllerginType } from '../data/allergins'
+	import { AllerginType } from '../data/allergin_type'
 	import { userData } from './added_data_store'
 	import Select from 'svelte-select';
 	import { getContext } from 'svelte' 

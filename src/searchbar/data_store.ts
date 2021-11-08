@@ -1,4 +1,4 @@
-import type { Allergin } from '../data/allergins';
+import type { Allergin } from '../data/allergin_type';
 import type { Readable } from 'svelte/store';
 import { writable, derived } from 'svelte/store';
 import { allergins } from '../data/allergins';
