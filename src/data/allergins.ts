@@ -7,4 +7,4 @@ export const allergins: Allergin[] = [
 		types: [AllerginType.PALM_OIL, AllerginType.COCONUT, AllerginType.SOY],
 	},
 	...palm_oil_data
-].sort()
+].sort((a, b) => a.name.localeCompare(b.name))
