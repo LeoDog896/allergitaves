@@ -6,6 +6,7 @@
 
 <Modal>
 	<SearchBar />
+	<div id="margin"></div>
 	<main>
 		{#each $data as allergin}
 			<div class="allergin">
@@ -35,6 +36,8 @@
 		padding: 10px 20px;
 		border-radius: 5px;
 		transition: 200ms background-color;
+		width: 100%;
+		text-align: center;
 
 		h2 {
 			color: #666;
